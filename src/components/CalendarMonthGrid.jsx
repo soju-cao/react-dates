@@ -371,5 +371,6 @@ export default withStyles(({ reactDates: { color, zIndex } }) => ({
     zIndex: zIndex - 1,
     opacity: 0,
     pointerEvents: 'none',
+    visibility: 'hidden',
   },
 }))(CalendarMonthGrid);
